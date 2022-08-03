@@ -1,0 +1,54 @@
+
+.initial-link{
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: hsl(255 11% 22% );
+
+}
+
+.new-link {
+    padding-top: 1rem;
+}
+
+.shorter{
+    color: hsl(180 66% 49% );
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-right: 2.5rem;
+    
+}
+
+.button {
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 0.375rem;
+    color: rgb(255 255 255 );
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    background-color: hsl(180 66% 49%);
+}
+
+@media (min-width: 768px) {
+    .new-link {
+                display: flex;
+                margin-left: auto;
+                text-align: center;
+                
+                        --tw-space-x-reverse: 0;
+                        
+                
+    }
+
+    .button {
+        margin-top: 0px;
+        width: 6rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+    }
+}
